@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/error_handle_dialog"
+    android:layout_width="250dp"
+    android:layout_height="170dp"
+    android:layout_gravity="center"
+    android:background="#FFFFFFFF"
+    tools:context="cn.asbest.caipiao.ErrorHandleDialog">
+    <TextView android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#FFc0c0c0"
+        android:textSize="15sp"
+        android:text="错误提示"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="#FF505050"
+        android:layout_centerInParent="true"
+        android:text="非常抱歉，应用遇到问题需要重启"/>
+    <Button android:id="@+id/ok_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:onClick="close"
+        style="@style/Base.TextAppearance.AppCompat.Button"
+        android:text="我知道了"/>
+</RelativeLayout>

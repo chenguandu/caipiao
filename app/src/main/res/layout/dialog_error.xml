@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="457dp"
+	android:layout_height="317dp"
+	android:padding="0dp"
+	android:orientation="vertical"
+    android:layout_gravity="center"
+	android:background="#FFFFF000">
+
+	<TextView
+		android:id="@+id/dialog_head_title"
+		android:layout_width="152dp"
+		android:layout_height="42dp"
+		android:layout_marginTop="12dp"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:scaleType="fitXY" />
+	<ImageView
+		android:layout_marginTop="7dp"
+		android:layout_below="@id/dialog_head_title"
+		android:layout_width="match_parent"
+		android:layout_height="2dp"
+		android:id="@+id/title_line"/>
+	<TextView
+	    android:id="@+id/dialog_content"
+		android:layout_width="match_parent"
+		android:layout_height="150dp"
+		android:gravity="center"
+		android:layout_below="@id/title_line"
+		android:layout_marginLeft="6dp"
+		android:layout_marginRight="6dp"
+		android:textSize="22sp"
+		android:text="非常抱歉，应用遇到问题需要重启"
+		android:layout_centerHorizontal="true" />
+	<LinearLayout
+	    android:id="@+id/dialog_foot"
+		android:padding="0dp"
+	    android:layout_width="445dp"
+		android:layout_height="46dp"
+		android:layout_marginBottom="7dp"
+		android:layout_marginLeft="1dp"
+		android:layout_marginRight="1dp"
+		android:orientation="horizontal"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true" >
+
+		<Button android:id="@+id/btn_1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:textSize="21sp"
+			android:text="我知道了"/>
+
+	</LinearLayout>
+	
+</RelativeLayout>

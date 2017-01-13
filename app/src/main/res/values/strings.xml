@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">双色球</string>
+    <string name="result">%1$s</string>
+
+    <string name="rec_success">识别成功</string>
+    <string name="rec_failure">识别失败</string>
+    <string name="rec_result_title">识别結果</string>
+    <string name="rec_in_progress">正在识别</string>
+    <string name="interrupt_rec_confirm">正在进行识别，是否立即中止?</string>
+    <string name="sdcard_not_ready">SD卡未准备好</string>
+    <string name="waiting">等待</string>
+    <string name="ok">好</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="back">返回</string>
+    <string name="cancel">取消</string>
+    <string name="error">出错</string>
+    <string name="success">成功</string>
+    <string name="warning">警告</string>
+    <string name="attention">注意</string>
+    <string name="stopping_rec">正在停止识别...</string>
+
+</resources>
