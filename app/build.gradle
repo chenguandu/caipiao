@@ -10,12 +10,12 @@ android {
             storePassword 'Cgd123456'
         }
     }
-    compileSdkVersion 22
+    compileSdkVersion 24
     buildToolsVersion "25.0.0"
     defaultConfig {
         applicationId "cn.asbest.caipiao"
         minSdkVersion 15
-        targetSdkVersion 22
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
