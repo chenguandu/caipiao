@@ -23,4 +23,9 @@ public class ExampleInstrumentedTest {
 
         assertEquals("cn.asbest.caipiao", appContext.getPackageName());
     }
+
+    @Test
+    public void add(){
+        assertEquals(3, 1+2);
+    }
 }
